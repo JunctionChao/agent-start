@@ -5,10 +5,16 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "autogen-agentchat>=0.7.5",
+    "autogen-ext>=0.7.5",
+    "camel-ai>=0.2.59",
     "google-search-results>=2.4.2",
+    "langchain-openai>=1.0.2",
+    "langgraph>=1.0.3",
     "loguru>=0.7.3",
-    "openai>=2.7.2",
+    "openai>=1.86.0",
     "python-dotenv>=1.2.1",
     "requests>=2.32.5",
+    "streamlit>=1.51.0",
     "tavily-python>=0.7.12",
 ]
