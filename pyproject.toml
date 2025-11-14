@@ -5,6 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "google-search-results>=2.4.2",
+    "loguru>=0.7.3",
     "openai>=2.7.2",
     "python-dotenv>=1.2.1",
     "requests>=2.32.5",
